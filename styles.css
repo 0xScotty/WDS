@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+}
+
+head, body {
+    font-family: Jost;
+    margin: 25px 100px;
+    width: auto;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 35px;
+    margin: 25px auto;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: left;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+section {
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid silver;
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+}
+
+p {
+    padding: 5px;
+}
+
+li {
+    padding: 5px;;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 50px;
+    margin: 0 50px;
+    font-size: 20px;
+    width: 100px;
+}
+
+ /* Color section */
+
+#colors article {
+    text-align: center;
+    width: 200px;
+    border-radius: 25px;
+    border: 2px dashed silver;
+    padding: 10px 35px;
+}
+
+#colors h3 {
+    text-align: center;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.violet {
+    background-color: blueviolet;
+    color: white;
+}
+
+.green {
+    background-color: lawngreen;
+}
+
+.maroon {
+    background-color: maroon;
+    color: white;
+}
+
+#colors li {
+    list-style-type: initial ;
+}
+
+/* Typeface section */
+
+#typefaces article {
+    text-align: left;
+    padding: 10px 10px;
+}
+
+#typefaces li {
+    list-style-type: circle;
+}
+
+.serif {
+    font-family: "Zilla Slab", serif;
+}
+
+.monospace {
+    font-family: "Source Code Pro", monospace;
+}
+
+.handwriting {
+    font-family: Caveat;
+}
+
+.display {
+    font-family: monoton;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}

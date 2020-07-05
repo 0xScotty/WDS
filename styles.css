@@ -1,3 +1,5 @@
+/* General Style Sheet */
+
 html {
     box-sizing: border-box;
 }
@@ -9,15 +11,16 @@ head, body {
 }
 
 h1 {
-    font-weight: 900;
-    font-size: 35px;
+    font-weight: 700;
+    font-size: 40px;
     margin: 25px auto;
+    font-family: "Zilla Slab", serif;
 }
 
 h2 {
     font-size: 25px;
     font-weight: 500;
-    padding: 10px;
+    margin: 10px auto;
     text-align: left;
 }
 
@@ -25,7 +28,7 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     text-align: left;
-    padding: 8px 15px;
+    margin: 15px auto;
 }
 
 section {
@@ -33,6 +36,7 @@ section {
     padding: 20px;
     border: 2px solid silver;
     text-align: center;
+    width: 100%;
 }
 
 article {
@@ -41,13 +45,15 @@ article {
 
 p {
     padding: 5px;
+    font-weight: 400;
+    font-size: 17px;
 }
 
 li {
     padding: 5px;;
 }
 
-/* Navbar */
+/* Header & Navbar */
 
 .navbar {
     padding: 15px 0;
@@ -70,6 +76,8 @@ li {
     border-radius: 25px;
     border: 2px dashed silver;
     padding: 10px 35px;
+    margin: 15px;
+    vertical-align: middle;
 }
 
 #colors h3 {
@@ -102,7 +110,8 @@ li {
 
 #typefaces article {
     text-align: left;
-    padding: 10px 10px;
+    padding: 10px 20px;
+    vertical-align: middle;
 }
 
 #typefaces li {
@@ -131,4 +140,20 @@ li {
 
 .italic {
     font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Text Styles section */
+
+#textStyles article {
+    vertical-align: middle;
+    margin: auto 70px;
+}
+
+#textStyles li {
+    list-style: square;
+    text-align: left;
 }
